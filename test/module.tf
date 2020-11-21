@@ -1,5 +1,5 @@
 module "VPC" {
-  source              = "aizhamal2312/vpc-WordPress-MariaDB/aws"
+  source              = "Aizhamal2312/vpc-WordPress-MariaDB/aws"
   region              = "${var.region}"
   cidr_block          = "${var.cidr_block }"
   private_cidr_block1 = "${var.private_cidr_block1}"
